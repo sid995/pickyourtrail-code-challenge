@@ -1,0 +1,15 @@
+.header {
+  opacity: 0.8;
+  margin: 32px 0 40px;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: -0.46px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.5px;
+  }
+}

@@ -1,0 +1,56 @@
+.sitemap-vacation {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -12px;
+  padding-top: 12px;
+}
+
+.sitemap-vacation li {
+  color: #2c2f42;
+  opacity: 0.8;
+  font-weight: 300;
+  text-align: left;
+  word-break: break-word;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  float: left;
+  padding: 0 12px;
+  font-size: 17px;
+  line-height: 1.41;
+  letter-spacing: -0.25px;
+}
+
+.sitemap-vacation li a {
+  color: #2c2f42;
+  text-transform: capitalize;
+  opacity: 0.8;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+.sitemap-vacation li a:hover,
+.sitemap-vacation li a:focus {
+  color: #1cad45;
+}
+
+@media (min-width: 992px) {
+  .sitemap-vacation li {
+    width: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .sitemap-vacation li {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sitemap-vacation li {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+  }
+}
