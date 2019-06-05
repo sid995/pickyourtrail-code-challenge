@@ -2,7 +2,7 @@ import React from 'react'
 
 const Destination = props => {
   const { text, url } = props.destination
-  const newText = text.split('-').join(',')
+  const newText = text.split('-').join(', ')
 
   return (
     <li>
