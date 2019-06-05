@@ -35,22 +35,23 @@
   color: #1cad45;
 }
 
-@media (min-width: 992px) {
-  .sitemap-destination li {
-    width: 25%;
-  }
-}
-@media (min-width: 768px) {
-  .sitemap-destination li {
-    width: 33.33%;
-  }
-}
-
 @media (max-width: 767px) {
   .sitemap-destination li {
     width: 100%;
     font-size: 15px;
     line-height: 1.2;
     letter-spacing: -0.3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sitemap-destination li {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .sitemap-destination li {
+    width: 25%;
   }
 }
