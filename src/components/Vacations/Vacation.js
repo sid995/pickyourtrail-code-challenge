@@ -3,6 +3,7 @@ import React from 'react'
 const Vacation = props => {
   const { url, text } = props.vacation
   const newText = text
+    .replace('PACKAGES', '')
     .split('-')
     .join(' ')
     .toLowerCase()
