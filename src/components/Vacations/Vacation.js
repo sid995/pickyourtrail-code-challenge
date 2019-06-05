@@ -7,7 +7,6 @@ const Vacation = props => {
     .join(' ')
     .toLowerCase()
 
-  console.log(url, text)
   return (
     <li>
       <a target="_blank" href={url} rel="noopener noreferrer">

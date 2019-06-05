@@ -3,7 +3,6 @@ import Vacation from './Vacation'
 import './style.css'
 
 const Vacations = ({ vacations }) => {
-  console.log('Vacations:', vacations)
   return (
     <section className="common-list">
       <h5 className="section-header">Themed Vacations</h5>
