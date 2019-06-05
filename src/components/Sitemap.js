@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './common.css'
 import Header from './Header/Header'
 import SampleData from '../data/sample.json'
-// import Destinations from './Destinations/Destinations'
+import Destinations from './Destinations/Destinations'
 import Vacations from './Vacations/Vacations'
 
 export class Sitemap extends Component {
@@ -27,7 +27,7 @@ export class Sitemap extends Component {
       <div className="container" style={{ padding: '0 30px' }}>
         <div className="row">
           <Header />
-          {/* <Destinations destinations={this.state.destinations} /> */}
+          <Destinations destinations={this.state.destinations} />
           <Vacations vacations={this.state.vacations} />
         </div>
       </div>
